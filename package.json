@@ -1,8 +1,8 @@
 {
-    "name": "complex.js",
+    "name": "complex",
     "homepage": "https://github.com/infusion/Complex.js",
     "bugs": "https://github.com/infusion/Complex.js/issues",
-    "title": "complex.js",
+    "title": "complex",
     "version": "2.1.1",
     "description": "A complex numbers library",
     "keywords": [
@@ -15,7 +15,8 @@
         "arithmetic"
     ],
     "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
-    "main": "complex",
+    "exports": { ".": "complex.js" },
+    "type": "module",
     "types": "complex.d.ts",
     "private": false,
     "directories": {
@@ -25,14 +26,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git://github.com/infusion/Complex.js.git"
-    },
-    "funding": {
-        "type": "patreon",
-        "url": "https://www.patreon.com/infusion"
-    },
-    "engines": {
-        "node": "*"
+        "url": "git://github.com/nalply/complex.git"
     },
     "scripts": {
         "test": "mocha tests/*.js"

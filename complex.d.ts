@@ -12,7 +12,7 @@ type BValue = number | undefined;
 
 export function Complex(a: AValue, b?: BValue): Complex;
 
-export default Complex;
+//export default Complex;
 
 /**
  *

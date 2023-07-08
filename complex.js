@@ -33,7 +33,7 @@
  *
  */
 
-(function(root) {
+export const Complex = (function() {
 
   'use strict';
 
@@ -1408,7 +1408,8 @@
   Complex['NAN'] = new Complex(NaN, NaN);
   Complex['EPSILON'] = 1e-15;
 
-  if (typeof define === 'function' && define['amd']) {
+/*
+    if (typeof define === 'function' && define['amd']) {
     define([], function() {
       return Complex;
     });
@@ -1420,5 +1421,8 @@
   } else {
     root['Complex'] = Complex;
   }
+*/
 
-})(this);
+  return Complex
+
+})();
