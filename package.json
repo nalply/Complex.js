@@ -15,8 +15,7 @@
         "arithmetic"
     ],
     "author": "Robert Eisele <robert@xarg.org> (http://www.xarg.org/)",
-    "exports": { ".": "complex.js" },
-    "type": "module",
+    "exports": { ".": "./complex.js" },
     "types": "complex.d.ts",
     "private": false,
     "directories": {
